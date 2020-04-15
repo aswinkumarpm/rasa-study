@@ -1,0 +1,42 @@
+[
+    {
+        "text": "Thanks",
+        "intent": "thanks",
+        "intent_prediction": {
+            "name": "bye",
+            "confidence": 0.32346338405180475
+        }
+    },
+    {
+        "text": "Thank you so much",
+        "intent": "thanks",
+        "intent_prediction": {
+            "name": "bye",
+            "confidence": 0.2809668785285405
+        }
+    },
+    {
+        "text": "No, I am good as of now. Bye",
+        "intent": "bye",
+        "intent_prediction": {
+            "name": "thanks",
+            "confidence": 0.40646368043774517
+        }
+    },
+    {
+        "text": "Bye",
+        "intent": "bye",
+        "intent_prediction": {
+            "name": "greet",
+            "confidence": 0.4024053440219392
+        }
+    },
+    {
+        "text": "Bbye",
+        "intent": "bye",
+        "intent_prediction": {
+            "name": "thanks",
+            "confidence": 0.4240190049932357
+        }
+    }
+]

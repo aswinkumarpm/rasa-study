@@ -1,0 +1,359 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "check_balance",
+        "text": "what is my balance"
+      },
+      {
+        "intent": "check_balance",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "savings",
+            "entity": "source_account"
+          }
+        ],
+        "text": "how much do I have on my savings"
+      },
+      {
+        "intent": "check_balance",
+        "entities": [
+          {
+            "start": 25,
+            "end": 40,
+            "value": "savings",
+            "entity": "source_account"
+          }
+        ],
+        "text": "how much do I have on my savings account"
+      },
+      {
+        "intent": "check_balance",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "yen",
+            "entity": "currency"
+          }
+        ],
+        "text": "Could I pay in yen?"
+      },
+      {
+        "intent": "check_balance",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "dollar",
+            "entity": "currency"
+          }
+        ],
+        "text": "Can I pay in dollar?"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "affirm",
+        "text": "that sounds good"
+      },
+      {
+        "intent": "affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "never"
+      },
+      {
+        "intent": "deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "deny",
+        "text": "no way"
+      },
+      {
+        "intent": "deny",
+        "text": "not really"
+      },
+      {
+        "intent": "mood_great",
+        "text": "perfect"
+      },
+      {
+        "intent": "mood_great",
+        "text": "very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "amazing"
+      },
+      {
+        "intent": "mood_great",
+        "text": "wonderful"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am feeling very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I'm good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "unhappy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "awful"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "terrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not very good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "extremely sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "so sad"
+      },
+      {
+        "intent": "bot_challenge",
+        "text": "are you a bot?"
+      },
+      {
+        "intent": "bot_challenge",
+        "text": "are you a human?"
+      },
+      {
+        "intent": "bot_challenge",
+        "text": "am I talking to a bot?"
+      },
+      {
+        "intent": "bot_challenge",
+        "text": "am I talking to a human?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "world",
+            "entity": "category"
+          }
+        ],
+        "text": "Share some latest news around the world?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "sports",
+            "entity": "category"
+          }
+        ],
+        "text": "Share some latest news in sports?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 20,
+            "end": 30,
+            "value": "technology",
+            "entity": "category"
+          }
+        ],
+        "text": "What is going on in technology?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "fashion",
+            "entity": "category"
+          }
+        ],
+        "text": "Tell me some news about fashion"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "business",
+            "entity": "category"
+          }
+        ],
+        "text": "Tell me some news about business"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "arts",
+            "entity": "category"
+          }
+        ],
+        "text": "Tell me some news about arts"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "arts",
+            "entity": "category"
+          }
+        ],
+        "text": "What is going on in arts"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "food",
+            "entity": "category"
+          }
+        ],
+        "text": "What is cooking in food"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "movies",
+            "entity": "category"
+          }
+        ],
+        "text": "movies"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "lookup_tables": [
+      {
+        "name": "additional_currencies",
+        "elements": "data/test/currencies.txt"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "savings",
+        "synonyms": [
+          "savings account",
+          "pink pig"
+        ]
+      }
+    ]
+  }
+}

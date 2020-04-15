@@ -1,0 +1,5 @@
+yen
+dollar
+rupees
+Rs
+Dollar
